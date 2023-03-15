@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "finetune-sd"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "finetune_sd"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ipython = "^8.11.0"
+accelerate = "^0.17.1"
+transformers = "^4.27.0"
+ftfy = "^6.1.1"
+diffusers = "^0.14.0"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
